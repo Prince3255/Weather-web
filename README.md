@@ -7,7 +7,6 @@
 - [Technologies Used](#technologies-used)
 - [Installation](#Installation)
 - [Usage](#usage)
-- [API Reference](#API-Reference)
 - [Contributing](#contributing)
 - [Fork the Project](#fork-the-project)
 - [Project Link](#Project-link)
@@ -48,13 +47,6 @@ To get a local copy up and running follow these simple steps:
 1. Open the application in your web browser.
 2. Enter the name of a city in the search bar.
 3. Click the search button to retrieve weather information for the specified city.
-
-## API Reference
-
-This application uses the Weather API to fetch weather data. You need to sign up for an API key and include it in your JavaScript file:
-+ const apiKey = 'YOUR_API_KEY';
-+ const cityName = 'Entered_City_Name';
-+ const apiUrl = `https://api.openweathermap.org/data/2.5/weather?units=metric&q=${cityName}&appid=${apikey}`;
 
 ## Contributing
 
