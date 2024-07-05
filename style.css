@@ -1,0 +1,168 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(46, 44, 44);
+}
+.container {
+    background: linear-gradient(60deg,#00e6e6,#3366ff);
+    width: 40%;
+    max-width: 450px;
+    color: whitesmoke;
+    text-align: center;
+    margin: 20px auto 0px;
+    padding: 40px 30px;
+    border-radius: 20px;
+}
+#name {
+    border: 0;
+    outline: 0;
+    background: #fff;
+    font-size: 15px;
+    padding: 10px;
+    height: 100%;
+    width: 70%;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+button{
+    border: 0;
+    outline: 0;
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+button #search {
+    width: 15px;
+}
+.medium h1 {
+    font-size: 45px;
+    font-family: "Open Sans", sans-serif;
+    font-weight:500;
+}
+.medium h2 {
+    font-size: 45px;
+    font-family: "Poppins", sans-serif;
+    font-weight:400;
+}
+.bottom {
+    align-items: center;
+    margin: 40px 0 0 0;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+}
+.col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img {
+    width: 50px;
+    margin-right: 10px;
+}
+.col .humid , .windd {
+    font-size: 25px;
+    margin-bottom: -2px;
+} 
+.WAPI {
+    display: none;
+}
+.error {
+    display: none;
+    font-size: 18px;
+    margin-left: 50px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 730px) {
+    .container {
+        width: 50%;
+        max-width: 800px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .medium h1 {
+        font-size: 32px;
+    }
+    .medium h2 {
+        font-size: 32px;
+    }
+
+    .col img {
+        width: 36px;
+        margin-right: 14px;
+    }
+    .col .humid, .windd {
+        margin-bottom: -10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 70%;
+        max-width: 800px;
+    }
+    #name {
+        width: 80%;
+    }
+    
+}
+
+@media screen and (max-width: 400px) {
+    #name {
+        width: 60%;
+    }
+    .medium img {
+        height: 50vw;
+        width: 50vw;
+    }
+    
+    .col img {
+        width: 36px;
+        margin-right: 20px;
+    }
+    .col .humid, .windd {
+        font-size: 20px;
+        margin-bottom: -12px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .bottom {
+        grid-template-columns: none;
+    }
+
+    .col img {
+        width: 40px;
+        margin-right: 20px;
+    }
+    .col .humid, .windd {
+        font-size: 24px;
+        margin-bottom: -18px;
+    }
+}
+
+@media screen and (max-width: 200px) {
+    #name {
+        width: 100%;
+    }
+    button {
+        width: 36px;
+        height: 36px;
+        margin-top: 4vw;
+    }
+
+    .medium h1 {
+        font-size: 20px;
+    }
+    .medium h2 {
+        font-size: 20px;
+    }
+    
+}
