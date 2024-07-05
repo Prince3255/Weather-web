@@ -43,9 +43,9 @@ To get a local copy up and running follow these simple steps:
 
 # API Reference
 This application uses the Weather API to fetch weather data. You need to sign up for an API key and include it in your JavaScript file:
-const apiKey = 'YOUR_API_KEY';
-const cityName = 'Entered_City_Name';
-const apiUrl = `https://api.openweathermap.org/data/2.5/weather?units=metric&q=${cityName}&appid=${apikey}`;
++ const apiKey = 'YOUR_API_KEY';
++ const cityName = 'Entered_City_Name';
++ const apiUrl = `https://api.openweathermap.org/data/2.5/weather?units=metric&q=${cityName}&appid=${apikey}`;
 
 # Contributing
 Contributions are what make the open-source community such an amazing place to be learn, inspire, and create. Any contributions you make are greatly appreciated.
@@ -56,4 +56,5 @@ Contributions are what make the open-source community such an amazing place to b
 - Push to the Branch (git push origin feature/NewFeature)
 - Open a Pull Request
 
-- Project Link: https://github.com/Prince3255/Todo
+# Project Link: 
+* https://github.com/Prince3255/Todo
