@@ -9,7 +9,6 @@
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [Fork the Project](#fork-the-project)
-- [Project Link](#Project-link)
 
 ## Overview
 
@@ -24,7 +23,7 @@ A simple weather web application that allows users to get the current weather in
 
 ## Demo
 
-+ You can see a live demo of the application [here](https://prince3255.github.io/Todo/)
++ You can see a live demo of the application [here](https://weather-web-kappa-jade.vercel.app/)
 
 ## Technologies Used
 
@@ -58,7 +57,3 @@ Contributions are what make the open-source community such an amazing place to b
 - Commit your Changes (git commit -m 'Add some Feature')
 - Push to the Branch (git push origin feature/NewFeature)
 - Open a Pull Request
-
-## Project Link: 
-
-* https://github.com/Prince3255/Todo
